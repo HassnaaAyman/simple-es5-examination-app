@@ -1,0 +1,170 @@
+body{
+    background: #d9dede ;
+    margin: 0 ;
+    padding: 0 ;
+    
+}
+
+.section-form {
+    margin: 0 auto ; 
+    height: 610px;
+    width: 416px;
+    background-color:white;
+   
+
+}
+
+.section-form  h1
+{
+   color:black;
+   font-size:30px; 
+   font-family:cursive; 
+   text-align:center; 
+   height:40px ;
+   line-height: 73px;
+   margin-right: 24px;
+}
+
+ input[type="text"],input[type="passward"]
+    {
+    width:300px;
+    height:35px; 
+    font-size:15px;
+    font-style:italic;
+    border-style: solid;
+    border-color: aliceblue;
+    margin-left: 28px;
+    }
+
+
+
+#header h1{
+    color: aliceblue;
+    text-align: left;
+    font-family: cursive ;
+    font-size: 30px ; 
+    line-height: 3;
+    margin-left: 61px;
+}
+#header{
+    background-color: #0e7672 ; 
+    height: 70px ;
+    line-height: 2px ;    
+    margin-top: -31px;
+}
+
+ input[type="radio"]
+{
+
+    margin-left:81px;
+    
+}
+h3{
+    display: contents;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.send-data, .reset-data
+{
+    width: 237px;
+    height: 38px;
+    margin-left: 61px;
+    font-family: cursive;
+    font-size: larger;
+    border: aliceblue;
+    background-color: cadetblue;
+    color: aliceblue;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#seconed
+{
+    background-color: darkgoldenrod;
+}
+
+ .hidden 
+{
+   visibility: hidden;
+  
+}
+#hide
+{
+    color: red;
+    margin-left: 10px;
+}
+
+#exam
+{
+    width:80%;
+    height:500px;
+    background-color:white;
+    border: 3px solid black;
+    overflow: hidden;
+    position: relative;
+    display: none;
+    margin: 30px auto;
+}
+
+
+.q
+{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -11%;
+    right: -1150px;
+    visibility: hidden;
+    transition: right 1s;
+}
+
+.prev, .next {
+    z-index: 5;
+    cursor: pointer;
+    position: absolute;
+    top: 63%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.2s ease;
+    border-radius: 0 3px 3px 0;
+    display: none;
+  }
+  
+
+  .next {
+    right: 9rem;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev
+  {
+    right: 73rem;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color:#0e7672;
+  }
+ 
+  .crr
+{
+    visibility: visible;
+    right: 0;
+}
+
+h3{
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-left: 436px;
+    margin-top: 251px;
+    width: 100%;
+}
+
+/* input[type="radio"]
+{
+    margin-left: 427px;
+} */
